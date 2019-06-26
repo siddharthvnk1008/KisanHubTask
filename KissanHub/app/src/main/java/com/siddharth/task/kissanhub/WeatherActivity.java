@@ -15,6 +15,7 @@ import com.siddharth.task.kissanhub.ui.ExpandableRecyclerAdapter;
 
 public class WeatherActivity extends AppCompatActivity implements WeatherActivityContract.View {
     //Todo modify the project sing rxjava
+    // and push the code
     private CountryWeatherAdapter mAdapter;
     private RecyclerView recyclerView;
     private WeatherActivityContract.Presenter presenter;

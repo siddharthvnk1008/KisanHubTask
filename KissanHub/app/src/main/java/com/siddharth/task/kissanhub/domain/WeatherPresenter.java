@@ -24,6 +24,8 @@ import retrofit2.Response;
 
 /**
  * Created by Siddharth Vanakudari on 27/12/18.
+ *
+ *
  */
 public class WeatherPresenter implements WeatherActivityContract.Presenter{
 
