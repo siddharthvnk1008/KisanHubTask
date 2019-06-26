@@ -13,8 +13,8 @@ import com.siddharth.task.kissanhub.model.WeatherViewModel;
 import com.siddharth.task.kissanhub.ui.CountryWeatherAdapter;
 import com.siddharth.task.kissanhub.ui.ExpandableRecyclerAdapter;
 
-public class WeatherActivity extends AppCompatActivity implements WeatherActivityContract.View{
-
+public class WeatherActivity extends AppCompatActivity implements WeatherActivityContract.View {
+    //Todo modify the project sing rxjava
     private CountryWeatherAdapter mAdapter;
     private RecyclerView recyclerView;
     private WeatherActivityContract.Presenter presenter;
@@ -46,7 +46,7 @@ public class WeatherActivity extends AppCompatActivity implements WeatherActivit
     @Override
     protected void onResume() {
         super.onResume();
-        if(presenter!=null){
+        if (presenter != null) {
             presenter.loadWeatherData();
         }
     }
